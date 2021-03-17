@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BreweryComponent } from './brewery/brewery.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BreweryComponent } from './brewery/brewery.component';
   ],
   imports: [
     BrowserModule,
-    RouterModule
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
