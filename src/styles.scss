@@ -30,9 +30,11 @@ header {
       list-style-type: none;
       margin: 0;
       display: flex;
-
+      color: black;
+      
       li a {
         padding: 1em;
+        color: black;
 
         &:hover {
           background: darken($primary, 10%);
